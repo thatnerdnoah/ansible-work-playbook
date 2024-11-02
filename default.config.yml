@@ -22,7 +22,6 @@ dockitems_remove:
   - Reminders
   - Calendar
   - Contacts
-  - Freeform
   - Notes
   - News
   - Music
@@ -30,27 +29,27 @@ dockitems_persist:
   - name: "Launchpad"
     path: "/Applications/Launchpad.app"
     pos: 1
-  - name: "iPhone Mirroring"
-    path: '/Applications/iPhone Mirroring.app'
+  - name: "Microsoft Edge"
+    path: "/Applications/Microsoft\ Edge.app"
     pos: 2
-  - name: "Google Chrome"
-    path: "/Applications/Google\ Chrome.app/"
+  - name: "Webex"
+    path: "/Applications/Webex.app"
     pos: 3
-  - name: "Safari"
-    path: "/Applications/Safari.app"
-    pos: 4
-  - name: "Messages"
-    path: "/Applications/Messages.app"
-    pos: 5
   - name: "Discord"
     path: "/Applications/Discord.app"
     pos: 6
-  - name: "Steam"
-    path: "/Applications/Steam.app"
-    pos: 7
+  - name: "Windows App"
+    path: "/Applications/Windows\ App.app"
+    pos: 4
+  - name: "Microsoft Outlook"
+    path: "/Applications/Microsoft\ Outlook.app"
+    pos: 5
   - name: "Screenshot"
     path: "/Applications/Utilities/Screenshot.app"
     pos: 8
+  # - name: "Self Service"
+  #   path: "Applications/Self Service.app"
+  #   pos: 7
   - name: "System Settings"
     path: "/Applications/System\ Settings.app"
     pos: 9
@@ -106,32 +105,22 @@ homebrew_taps: []
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
   - scroll-reverser
-  - microsoft-edge
-  - webex
-  - firefox
-  - google-chrome
   - discord
-  - vlc
   - raspberry-pi-imager
-  - steam
   - obs
   - visual-studio-code
-  - kdenlive
-  - audacity
-  - blender
-  - godot
+
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-configure_mas_apps: true
+configure_mas_apps: false
 mas_installed_apps:
-  - { id: 497799835, name: "Xcode" }
-  - { id: 1295203466, name: "Windows App" }
-  - { id: 1352778147, name: "Bitwarden" }
-  - { id: 1451685025, name: "WireGuard" }
-  - { id: 1363637349, name: "Unread" }
-  - { id: 1463298887, name: "Userscripts-Mac-App" }
+  # - { id: 497799835, name: "Xcode" }
+  # - { id: 1295203466, name: "Windows App" }
+  # - { id: 1352778147, name: "Bitwarden" }
+  # - { id: 1451685025, name: "WireGuard" }
+  # - { id: 1363637349, name: "Unread" }
+  # - { id: 1463298887, name: "Userscripts-Mac-App" }
 mas_email: ""
 mas_password: ""
 
@@ -158,22 +147,22 @@ pip_packages: []
 #   version: "0.16.3" # default: N/A
 
 # Set to 'true' to configure Sublime Text.
-configure_sublime: false
-sublime_base_path: "~/Library/Application Support/Sublime Text"
-sublime_config_path: "Packages/User"
-sublime_package_control:
-  - "DocBlockr"
-  - "Dockerfile Syntax Highlighting"
-  - "FileDiffs"
-  - "GitHub Flavored Markdown Preview"
-  - "Jinja2"
-  - "Package Control"
-  - "PHP-Twig"
-  - "Pretty JSON"
-  - "SublimeLinter"
-  - "SublimeLinter-contrib-yamllint"
-  - "TrailingSpaces"
-  - "WordCount"
+# configure_sublime: false
+# sublime_base_path: "~/Library/Application Support/Sublime Text"
+# sublime_config_path: "Packages/User"
+# sublime_package_control:
+#   - "DocBlockr"
+#   - "Dockerfile Syntax Highlighting"
+#   - "FileDiffs"
+#   - "GitHub Flavored Markdown Preview"
+#   - "Jinja2"
+#   - "Package Control"
+#   - "PHP-Twig"
+#   - "Pretty JSON"
+#   - "SublimeLinter"
+#   - "SublimeLinter-contrib-yamllint"
+#   - "TrailingSpaces"
+#   - "WordCount"
 
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks: []

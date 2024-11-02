@@ -25,6 +25,9 @@ dockitems_remove:
   - Notes
   - News
   - Music
+  - Messages
+  - Safari
+  - Freeform
 dockitems_persist:
   - name: "Launchpad"
     path: "/Applications/Launchpad.app"

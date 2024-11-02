@@ -73,33 +73,33 @@ dotfiles_files:
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
-  - autoconf
-  - bash-completion
-  - doxygen
-  - gettext
-  - gifsicle
+  # - autoconf
+  # - bash-completion
+  # - doxygen
+  # - gettext
+  # - gifsicle
   - git
-  - gh
-  - go
-  - gpg
-  - mas
-  - httpie
+  # - gh
+  # - go
+  # - gpg
+  # - mas
+  # - httpie
   - iperf
-  - libevent
-  - sqlite
-  - nmap
-  - node
-  - nvm
-  - php
-  - ssh-copy-id
-  - cowsay
-  - readline
-  - openssl
-  - pv
+  # - libevent
+  # - sqlite
+  # - nmap
+  # - node
+  # - nvm
+  # - php
+  # - ssh-copy-id
+  # - cowsay
+  # - readline
+  # - openssl
+  # - pv
   - wget
-  - wrk
-  - zsh-history-substring-search
-  - tart
+  # - wrk
+  # - zsh-history-substring-search
+  # - tart
 
 homebrew_taps: []
 
@@ -107,14 +107,13 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - scroll-reverser
   - discord
-  - raspberry-pi-imager
   - obs
   - visual-studio-code
 
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 configure_mas_apps: false
-mas_installed_apps: {}
+mas_installed_apps: []
   # - { id: 497799835, name: "Xcode" }
   # - { id: 1295203466, name: "Windows App" }
   # - { id: 1352778147, name: "Bitwarden" }

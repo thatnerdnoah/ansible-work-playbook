@@ -38,9 +38,6 @@ dockitems_persist:
   - name: "Webex"
     path: "/Applications/Webex.app"
     pos: 3
-  - name: "Discord"
-    path: "/Applications/Discord.app"
-    pos: 6
   - name: "Windows App"
     path: "/Applications/Windows\ App.app"
     pos: 4
@@ -49,13 +46,13 @@ dockitems_persist:
     pos: 5
   - name: "Screenshot"
     path: "/Applications/Utilities/Screenshot.app"
-    pos: 8
-  # - name: "Self Service"
-  #   path: "Applications/Self Service.app"
-  #   pos: 7
+    pos: 6
+  - name: "Self Service"
+    path: "Applications/Self Service.app"
+    pos: 7
   - name: "System Settings"
     path: "/Applications/System\ Settings.app"
-    pos: 9
+    pos: 8
 
 configure_sudoers: false
 sudoers_custom_config: ""

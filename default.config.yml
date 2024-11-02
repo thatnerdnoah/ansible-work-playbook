@@ -114,7 +114,7 @@ homebrew_cask_apps:
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 configure_mas_apps: false
-mas_installed_apps:
+mas_installed_apps: {}
   # - { id: 497799835, name: "Xcode" }
   # - { id: 1295203466, name: "Windows App" }
   # - { id: 1352778147, name: "Bitwarden" }
